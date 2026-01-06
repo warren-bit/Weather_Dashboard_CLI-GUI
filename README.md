@@ -17,10 +17,10 @@ Fetch real-time weather data for any city in the world using the OpenWeatherMap 
 ## Screenshots
 
 ### GUI Version
-![GUI Screenshot](screenshots/gui_screenshot.png)
+![GUI Screenshot](screenshots/gui.png)
 
 ### CLI Version
-![CLI Screenshot](screenshots/cli_output_screenshot.png)
+![CLI Screenshot](screenshots/cli.png)
 
 ## How to Use
 
@@ -29,64 +29,64 @@ Sign up at [OpenWeatherMap](https://openweathermap.org/api) and get a free API k
 
 ### 2. Set Your API Key
 ```bash
-export WEATHER_API_KEY="your_actual_api_key_here"
+export WEATHER_API_KEY="your_actual_api_key_here
+```
 
-3. Run the App
-GUI Version (great for everyday use):
-Bashpython weather_gui.py
-CLI Version (perfect for scripting):
-Bash# Interactive mode (default)
-python weather_cli.py
+### 3. Run the App
+**GUI Version** (great for everyday use):
+```bash
+python3 weather_gui.py
+```
+**CLI Version** (perfect for scripting):
+- Iteractive mode(deafault):
+```bash
+python3 weather_cli.py
+```
+- Batch mode (check multiple cities at once):
+```bash
+python3 weather_cli.pi Nairobi Tokyo Paris
+```
 
-# Batch mode: check multiple cities at once
-python weather_cli.py Nairobi Tokyo London Paris
-Installation
-Bashgit clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+### Installation
+```bash
+git clone https://github.com/warren-bit/Weather_Dashboard_CLI-GUI.git
+cd weather_Dashboard_CLI_GUI
 
-# Optional: create a virtual environment
+# optional but recommended: Create a vvirtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate      # On Windwos: venc/Scripys/activate
 
-# Install dependencies
+# install dependencies
 pip install -r requirements.txt
-Requirements
+```
 
-Python 3.6+
-requests library
-Tkinter (built-in; on Linux: sudo apt install python3-tk)
+### Requirements
+- Python 3.6 or higher
+- 'requests' library
+- Tkinter (included in Python,; on Linux install with 'sudo apt install python3-tk' )
 
-Project Structure
-textyour-repo-name/
+### Project Structure
+
+Weather_Dashboard_CLI-GUI/
 ├── weather_cli.py         # Command-line version
 ├── weather_gui.py         # Graphical version
-├── requirements.txt       # Dependencies
+├── requirements.txt       # Project dependencies
 ├── weather_history.json   # Auto-generated history (gitignored)
 ├── screenshots/           # Optional screenshots
 ├── .gitignore
 └── README.md
-Future Improvements
 
-Add 5-day forecast
-Weather icons in the GUI
-Dark mode toggle
-Package as a standalone executable
+### Future Improvements
+- Add 5-day forecast
+- Display weather icons in the GUI
+- Dark mode toggle
+- Package as a standalone executable
 
-Made With ❤️ Using
+### Made with ❤️ Using:
+- Python
+- Requsts
+- Tkinter
+- OpenWeatherMaop API
 
-Python
-Requests
-Tkinter
-OpenWeatherMap API
-
-Built by Warren — learning Python one project at a time! 🚀
+Built by **Warren** 🚀
 Feel free to star ⭐, fork, or contribute!
-text### Quick Checklist Before Pushing
-1. Replace `yourusername/your-repo-name` with your actual repo URL.
-2. Create a `screenshots` folder and add `gui.png` + `cli.png`.
-3. Make sure `requirements.txt` exists (even if just `requests`).
-4. Commit and push!
-
-You’re all set — copy, paste, commit, push, and watch your repo shine!  
-
-When it’s live, drop the link here. I’ll be first in line to give it a star! 🌟2.9sFast
