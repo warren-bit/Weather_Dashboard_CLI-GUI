@@ -86,7 +86,7 @@ Weather_Dashboard_CLI-GUI/
 - Python
 - Requsts
 - Tkinter
-- OpenWeatherMaop API
+- OpenWeatherMap API
 
 Built by **Warren** 🚀
 Feel free to star ⭐, fork, or contribute!
